@@ -1,0 +1,15 @@
+3ACE Fitness — interactive workout logging prototype
+
+This prototype incorporates openGym's unmodified frontend/src/lib/workout-model.js
+at commit b6cfe2bbd3f099523ffbf2677438864e9a09a06f.
+Upstream: https://github.com/DuarteSantos8/openGym
+openGym — Copyright (C) 2026 Duarte Santos.
+License: GNU Affero General Public License version 3 (see LICENSE).
+
+The 3ACE interface, sample records and preview orchestration are new prototype work,
+distributed under GNU AGPL-3.0 with the incorporated module. The complete
+corresponding source for this preview is offered in source.zip and as readable
+HTML, CSS and JavaScript on this site. No proprietary exercise media is included.
+
+This is a logging-flow prototype using sample data and browser-local persistence.
+It is not the complete openGym application and has no upstream server or sync.
