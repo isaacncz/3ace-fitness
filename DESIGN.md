@@ -1,6 +1,6 @@
 # 3ACE Fitness — Proposed design direction
 
-Status: recommendation for review. No implemented UI, approved visual mockup or measured device evidence yet.
+Status: direction implemented as a clickable prototype in preview/ for user review. No approved final design or physical-device evidence yet.
 
 ## Thesis
 
@@ -55,4 +55,5 @@ Semantic controls, visible focus, screen-reader labels containing exercise and s
 
 ## Review references
 
-Apple-inspired clarity and familiar mobile conventions are user direction. No exact competitor layout or Apple visual asset is adopted. The proposal wireframes use synthetic example workout data.
+Apple-inspired clarity and familiar mobile conventions are user direction. The current prototype uses selected openGym workout-model code and its familiar logging flow, with a simpler independent interface. No Apple visual asset is adopted. The proposal wireframes use synthetic example workout data.
+

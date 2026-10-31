@@ -1,6 +1,6 @@
 # 3ACE Fitness — Product brief
 
-Status: proposed workout-logger direction, 2026-10-31.
+Status: workout-logger direction with a clickable prototype for review, 2026-10-31.
 
 ## Confirmed by the user
 
@@ -8,9 +8,9 @@ Status: proposed workout-logger direction, 2026-10-31.
 - Deliver as a web app.
 - Apply Apple-inspired design philosophy: clarity, restraint, familiar behavior and thoughtful defaults.
 - Keep the previous repository Markdown in a backlog folder.
-- Propose the design before application implementation.
+- Review the logging experience through an interactive web mockup.
 
-The exact Open Gym product has not been identified; no competitor-specific behavior is assumed.
+The user subsequently requested reuse of openGym's backbone and a preview. The reference is DuarteSantos8/openGym. preview/ reuses its workout-model module under AGPL-3.0 and implements a smaller browser-local logging flow; it does not port the full app.
 
 ## Recommended first release
 
@@ -44,3 +44,4 @@ Defer cardio-specific logging, supersets, training-plan generation, social feeds
 - Review the proposed visual direction and workout flow.
 
 These decisions do not prevent review of the documented design.
+

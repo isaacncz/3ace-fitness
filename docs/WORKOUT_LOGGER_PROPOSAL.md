@@ -1,6 +1,6 @@
 # 3ACE Fitness — Workout logger proposal
 
-Status: design proposal for review, 2026-10-31. No application implementation is included.
+Status: design proposal for review, 2026-10-31. A clickable prototype now lives in ../preview/; production requirements below remain proposed. See preview/README.md for the exact implemented scope and verification limits.
 
 ## 1. Product promise
 
@@ -150,3 +150,4 @@ Usability goals: a familiar prefilled set usually takes one tap; changing weight
 ## 9. Deferred work
 
 Cardio-specific records, supersets, cloud accounts/sync, AI progression, camera rep counting, 3D anatomy, social feeds and wearable integration are outside the suggested first release. MuscleVision remains intact in the repository backlog.
+
