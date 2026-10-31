@@ -57,3 +57,9 @@ Semantic controls, visible focus, screen-reader labels containing exercise and s
 
 Apple-inspired clarity and familiar mobile conventions are user direction. The current prototype uses selected openGym workout-model code and its familiar logging flow, with a simpler independent interface. No Apple visual asset is adopted. The proposal wireframes use synthetic example workout data.
 
+
+## Photo-first coaching iteration
+
+The user requested photographing clients and their workouts, then logging. Train now opens on a selected client and a large Take a workout photo action, with Choose a photo and Log without a photo alternatives. Client photo is a separately labeled portrait action. After attachment, a reference image sits above Exercise, Weight and Reps fields and one Log set button. The first set starts the session; following sets retain editable values. Rest appears inline and does not block input. Completed sets accumulate below with individual Undo controls. End session saves directly; Reopen reverses the finish.
+
+Switching clients retains their active sessions separately. History is filtered by the selected client, with session image thumbnails. Images are saved as browser-local blobs, not uploaded or inferred. Initials remain a useful fallback for clients without portraits. This iteration is still a reviewable prototype, not production client record management.

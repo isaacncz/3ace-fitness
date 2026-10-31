@@ -14,9 +14,9 @@ The user subsequently requested reuse of openGym's backbone and a preview. The r
 
 ## Recommended first release
 
-Audience: an individual who knows their exercises and wants to record strength workouts between sets.
+Audience: a coach logging strength workouts for individual clients, with photos kept beside their sets.
 
-Job: begin a session, record accurate sets with minimal interaction, and find previous performance next time.
+Job: select a client, attach a workout photo, log only the exercise/weight/reps, and keep each client’s records separate. The first set starts a session; ending it saves directly with a reopen option.
 
 Primary device: an iPhone-sized browser or installed Home Screen web app. Tablet and desktop remain usable.
 
@@ -35,7 +35,7 @@ Success targets to verify during implementation:
 
 Local-first, without accounts or cloud sync. Browser data can be cleared or evicted; portable backups must be available. Recommend React, TypeScript, Vite, IndexedDB and a service worker; exact dependencies remain implementation choices.
 
-Defer cardio-specific logging, supersets, training-plan generation, social feeds, body measurements, calorie estimates, AI coaching, camera analysis, Apple Watch integration and 3D anatomy.
+The photo-first prototype now supports camera/library image inputs, optional client portraits, client-specific sessions/history and browser-local photo storage. Photos are references; no OCR, face recognition, exercise recognition or automatic rep counting is implemented. Defer cardio-specific logging, supersets, training-plan generation, social feeds, body measurements, calorie estimates, AI coaching, camera analysis, Apple Watch integration and 3D anatomy.
 
 ## Open decisions
 

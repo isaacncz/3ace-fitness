@@ -1,6 +1,6 @@
 # 3ACE Fitness
 
-A mobile-first workout logger for the web, with an interactive prototype.
+A mobile-first coaching workout logger for the web, with a photo-first interactive prototype.
 
 **Status:** Clickable logging prototype available; production application work remains pending.
 
@@ -15,3 +15,5 @@ The confirmed direction is a simpler workout logger with Apple-inspired clarity,
 
 The workout-logger details are proposals for review, not approved implementation requirements. The prototype reuses selected openGym workout-model logic under AGPL-3.0; see preview/NOTICE.txt. No account, cloud sync or AI service is proposed for the first release.
 
+
+The latest preview supports selecting a client, capturing a client portrait or workout reference photo, and logging exercises/weight/reps beside it. Sessions start with the first logged set, stay separate per client, and end with one tap plus a Reopen option. Photos remain on this device; they are not interpreted by AI.
